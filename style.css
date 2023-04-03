@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+nav,
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  margin: 30px 0 0 0;
+}
+
+img {
+  transition: 900ms;
+}
+
+img:hover {
+  transition: 900ms;
+  transform: scale(1.10);
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: 500ms;
+}
+
+hr {
+  color: white;
+  margin: 15px 0 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: 500ms;
+  transform: scale(1.10);
+}
+
+.video video {
+  width: 100%;
+  height: 600px;
+}
+
+.elements-navigation ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.elements-navigation li {
+  margin: 0 15px 0 15px;
+}
+
+.links img {
+  margin: 30px 15px 30px 15px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Galery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-image {
+  margin: 0 15px 30px 15px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0 30px 0;
+}
+
+#quoteText {
+  font-style: italic;
+  font-size: 28px;
+  transition: 700ms;
+}
+
+#quoteText:hover {
+  font-size: 29px;
+  text-decoration: underline;
+  transition: 700ms;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textVideo {
+  margin: 30px 0 30px 0;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0 50px 0;
+}
+
+#hrmagic {
+  margin: 0;
+  padding: 0;
+  height: 500px;
+}
+
+.item-line h3 {
+  transition: 700ms;
+}
+
+.item-line h3:hover {
+  text-decoration: underline;
+  transition: 700ms;
+  transform: scale(1.10);
+}
+
+.knowMore {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 100px 0;
+  align-items: center;
+}
+
+#MainText {
+  font-size: 25px;
+}
+
+#buttonKnow {
+  margin: 40px 0 0 0;
+}
+
+#inters {
+  transition: 700ms;
+}
+
+#inters:hover {
+  transition: 700ms;
+  transform: scale(1.1000);
+  text-decoration: underline;
+}
